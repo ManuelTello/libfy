@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f0ff;
+    overflow: hidden;
+}
+
+.subContainer{
+    width: 98%;
+    height: 96%;
+}
+
+.homeContainer {
+    display: flex;
+    height: 100%;
+}
+
+.mainViewContainer{
+    width: 80%;
+    height: 100%;
+    background: violet;
+    border-radius: 15px
+}
+
+.sideBarContainer {
+    height: 100%;
+    width: 20%;
+    margin-right: 1%;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.sideBarMenuContainer {
+    width: 100%;
+    display: flex;
+}
+
+.recentlyAddedContainer{
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
