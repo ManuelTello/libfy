@@ -1,4 +1,4 @@
 export default function MainView() {
-    return <main className="mainViewContainer">
+    return <main>
     </main>
 }

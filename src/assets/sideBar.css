@@ -1,3 +1,5 @@
-.recentlyAddedEntry{
-    width: 100%;
+.sideBar {
+    width: 20%;
+    height: 100%;
+    background-color:teal;
 }
